@@ -1,0 +1,2 @@
+CREATE (:Henrique)-[:ACTED_IN]->(Series:`Chewing Gum`)<-[:WATCHED {rating: "4,0"}]-(:Eduardo)-[:WATCHED {rating: "4,5"}]->(:`Senhor dos Aneis`)-[:IN_GENRE]->(:Fantasia)<-[:DIRECTED]-(:`João`),
+(Series)-[:_RELATED]->(:Comedy)
